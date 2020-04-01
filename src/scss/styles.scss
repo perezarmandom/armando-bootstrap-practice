@@ -9,4 +9,14 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+
+
+.jumbotron {
+  background-image: url("../img/kraken02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 // Import partials here
+@import "footer"
