@@ -9,13 +9,27 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-
+#navbarNav  {
+  a:hover {
+    text-decoration: underline;
+  }
+  .active{
+    font-weight: bold;
+  }
+}
 
 .jumbotron {
-  background-image: url("../img/kraken02.jpg");
+  background-image: url("../img/pirate-ship.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  h1, p {
+    color: white;
+  }
+  .display-4 {
+    font-family: 'Pirata One', cursive;
+  }
 }
 
 // Import partials here
