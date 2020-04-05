@@ -32,5 +32,28 @@
   }
 }
 
+.container {
+  h1 {
+    font-family: 'Pirata One', cursive;
+  }
+  #byline {
+    font-weight: bold;
+    margin-bottom: .5px;
+  }
+  #source {
+    font-style: italic;
+    margin-top: .5px;
+  }
+}
+
+.row {
+  p {
+    border-left: thin;
+    border-color: gray;
+  }
+}
+
+
+
 // Import partials here
 @import "footer"
